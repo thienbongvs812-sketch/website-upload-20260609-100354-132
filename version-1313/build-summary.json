@@ -1,0 +1,26 @@
+{
+    "movie_count": 2000,
+    "category_count": 10,
+    "m3u8_source_count": 20,
+    "category_distribution": {
+        "热播精选": 200,
+        "新片首映": 200,
+        "口碑电影": 200,
+        "剧集连播": 200,
+        "动作悬疑": 200,
+        "爱情青春": 200,
+        "喜剧治愈": 200,
+        "历史战争": 200,
+        "日韩欧美": 200,
+        "奇幻科幻": 200
+    },
+    "validation": {
+        "html_files": 2015,
+        "detail_files": 2000,
+        "analytics_count": 2015,
+        "expected_html_min": 2015,
+        "expected_movies": 2000,
+        "bad_files": [],
+        "forbidden_hits": []
+    }
+}

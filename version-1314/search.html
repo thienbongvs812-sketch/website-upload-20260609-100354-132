@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索筛选 - 国产电视剧全集免费高清在线 - 影视大全网-影视资源库</title>
+  <meta name="description" content="影视大全网搜索筛选页面，支持按片名、地区、年份、类型和标签查找高清影视资源。">
+  <meta name="keywords" content="影视搜索,电视剧筛选,国产电视剧全集,免费高清在线,影视大全网,热播剧全集,电视剧资源">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="./index.html" aria-label="影视大全网">
+        <span class="logo-mark">影</span>
+        <span class="logo-text">
+          <strong>影视大全网</strong>
+          <small>影视资源库</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类总览</a>
+        <a class="nav-link" href="./rankings.html">排行榜</a>
+        <a class="nav-link active" href="./search.html">搜索筛选</a>
+        <a class="nav-link" href="./sitemap.html">全站索引</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-panel" hidden>
+      <div class="mobile-links">
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类总览</a>
+        <a class="nav-link" href="./rankings.html">排行榜</a>
+        <a class="nav-link active" href="./search.html">搜索筛选</a>
+        <a class="nav-link" href="./sitemap.html">全站索引</a>
+        <div class="mobile-category-links">
+          <a href="./category-drama-hits.html">热播剧场</a>
+          <a href="./category-movie-hd.html">高清电影</a>
+          <a href="./category-romance-city.html">都市爱情</a>
+          <a href="./category-mystery-crime.html">悬疑犯罪</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero search-hero">
+      <div class="container">
+        <span class="eyebrow">Search</span>
+        <h1>搜索与筛选</h1>
+        <p>输入片名、标签、地区、年份或类型，快速定位影片详情页。</p>
+      </div>
+    </section>
+    <section class="section white-section">
+      <div class="container search-root" data-search-root>
+        <div class="search-panel">
+          <label class="search-main-input">
+            <span>关键词</span>
+            <input type="search" data-search-input placeholder="例如：悬疑、爱情、2024、中国大陆">
+          </label>
+          <div class="search-filter-grid">
+            <label>
+              <span>类型</span>
+              <select data-search-type>
+                <option value="">全部类型</option>
+              </select>
+            </label>
+            <label>
+              <span>地区</span>
+              <select data-search-region>
+                <option value="">全部地区</option>
+              </select>
+            </label>
+            <label>
+              <span>年份</span>
+              <select data-search-year>
+                <option value="">全部年份</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="result-count" data-search-count>输入关键词或使用筛选条件开始查找</div>
+        <div class="movie-grid" data-search-results></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>影视大全网</h2>
+        <p>提供国产电视剧全集免费高清在线观看服务，本站是内容全面的影视大全网，剧集资源完整，画质优良，追剧体验佳。</p>
+      </div>
+      <div>
+        <h3>快速入口</h3>
+        <a href="./categories.html">分类总览</a>
+        <a href="./rankings.html">排行榜</a>
+        <a href="./search.html">搜索筛选</a>
+        <a href="./sitemap.html">全站索引</a>
+      </div>
+      <div>
+        <h3>热门分类</h3>
+        <a href="./category-drama-hits.html">热播剧场</a>
+          <a href="./category-movie-hd.html">高清电影</a>
+          <a href="./category-romance-city.html">都市爱情</a>
+          <a href="./category-mystery-crime.html">悬疑犯罪</a>
+          <a href="./category-comedy-family.html">喜剧合家欢</a>
+          <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+          <a href="./category-action-adventure.html">动作冒险</a>
+          <a href="./category-history-costume.html">历史古装</a>
+          <a href="./category-animation-family.html">动画少儿</a>
+          <a href="./category-horror-thriller.html">恐怖惊悚</a>
+          <a href="./category-overseas-picks.html">海外精选</a>
+          <a href="./category-quality-selection.html">口碑佳片</a>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/search-data.js" defer></script>
+  <script src="./assets/js/site.js" defer></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
